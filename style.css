@@ -1,0 +1,15 @@
+/* Resetando o CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container div {
+    box-sizing: 200px;
+}
