@@ -7,6 +7,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.cabeçalho {
+    background-color: #0bb7c7;
+    margin: 0;
+    height: 70px;
+    width: auto;
+}
+
 body {
     background-image: url(./images/background.png);
     background-repeat: no-repeat;
@@ -75,4 +82,20 @@ body {
 .container button:hover {
     opacity: 0.3;
     cursor: pointer;
+}
+
+footer {
+    
+    width: auto;
+    height: 40px;
+    background-color: #000;
+    position: relative;
+}
+
+.footer-texto {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
 }
