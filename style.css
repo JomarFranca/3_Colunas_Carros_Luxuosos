@@ -8,22 +8,26 @@
 }
 
 body {
-    background-image: url("imagem/background.png");
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
+
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 170px;
+    padding: 150px;
 }
 
 .container div {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 450px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 5px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -52,6 +56,8 @@ body {
     width: 150px;
     border-radius: 20px;
     font-size: 15px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .botão-1 {
@@ -64,4 +70,9 @@ body {
 
 .botão-3 {
     color: #00403f;
+}
+
+.container button:hover {
+    opacity: 0.3;
+    cursor: pointer;
 }
