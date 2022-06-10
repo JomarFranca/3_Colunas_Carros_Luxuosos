@@ -93,11 +93,18 @@ body {
     cursor: pointer;
 }
 
+/* RODAPÉ */
+
 footer {
     width: auto;
     height: 40px;
     background-color: #000;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,5 +115,16 @@ footer {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    font-variant:small-caps;
+    font-variant: small-caps;
+}
+
+.footer-texto a {
+    color: #7ac9e9;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.footer-texto a:hover {
+    color: #0a4d99;
+    text-decoration: none;
 }
